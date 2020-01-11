@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.book-input {
+    width: 450px;
+    padding: 20px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.nav {
+    width: 100vw;
+    background: darkgrey;
+    padding: 20px;
+    margin: 0;
+    box-shadow: 5px 2px 9px 2px black;;
+}
+
+.submit-btn {
+    padding: 15px;
+    width: 150px;
+    font-size: 15px;
+    background: transparent;
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+    outline-style: inherit;
+}
+
+.book-title {
+    font-size: 30px;
+    display: block;
+}
+
+.icon {
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.error-msg {
+    color: red;
+}
+
+.container {
+    background: url('https://media.istockphoto.com/photos/book-and-computer-technology-in-library-picture-id899906850?k=6&m=899906850&s=612x612&w=0&h=ee6cohVAVGXFuDPP8Nj_tgrQr_56LaPj-snUDGyDWfw=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.book-form {
+    width: 500px;
+    position: relative;
+    left: 30%;
+    top: 200px;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.image {
+    border-bottom: 5px solid brown;
+}
+
+.fav-btn {
+    padding: 5px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+
+.bigBook {
+    width: 500px;
+    height: 700px;
+    border: 2px solid black;
+}
+
+
+.bigBook-container {
+    width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.book {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+}
+
+.sort-btn {
+    padding: 15px;
+    width: 300px;
+    font-size: 15px;
+    background: white;
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+    outline-style: inherit;
+}
+
+.bookshelf-container {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-container {
+    background: lightgray;
+    height: 100vh;
+}
+
+
+.home {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    border-radius: 100%;
+    padding: 10px;
+    outline: none;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+}
+
+.home:hover {
+    background: white;
+}
+
+h1 {
+    font-family: fantasy;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
